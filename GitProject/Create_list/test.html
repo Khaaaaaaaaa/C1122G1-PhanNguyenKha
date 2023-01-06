@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" id="in">
+<p id="in1">C1222G1</p>
+<button onclick="doSth()">Click me</button>
+<p id="display">ac</p>
+<p id="display1">ab</p>
+</body>
+<script>
+    //
+    // console.log("C1222G1");
+    // function doSth(){
+    //     document.write("C1222G1");
+    //     document.write("<br>");
+    //     document.write("<p style='color: red'>ABC</p>");
+    //     document.write("C1222G1");
+    // }
+
+    function doSth() {
+        let any = document.getElementById("in").value;
+        let any1 = document.getElementById("in1").textContent;
+        document.getElementById("display").innerText = any;
+        document.getElementById("display1").innerHTML = any1;
+
+    }
+</script>
+</html>
