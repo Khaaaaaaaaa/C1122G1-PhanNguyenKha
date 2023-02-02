@@ -8,8 +8,18 @@
 
 </body>
 <script>
-    let nhietdo = +prompt("Nhiet Do Hien Tai");
-    
+    let i = +prompt("Nhiet Do Hien tai");
+    while (i > 100 || i < 20) {
+        if (i > 100) {
+            alert("Giam Nhiet Do");
+            i = +prompt("Giam  Nhiet Do");
+        } else if (i < 20) {
+            alert("Tang Nhiet Do");
+            i = +prompt("Tang Nhiet Do");
+        } else {
 
+        }
+    }
+    alert("Nhiet Do Ok");
 </script>
-</html>d
+</html>
