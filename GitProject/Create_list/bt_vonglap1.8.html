@@ -5,18 +5,35 @@
     <title>bt_vong_lap_1.</title>
 </head>
 <body>
-<button id="choi" onclick="choi()">choi</button>
-</body>
+<button onclick="doan()">Bắt đầu</button>
 <script>
-    function choi()
-let number= +prompt("Nhap vao so muon doan")
-    let count=3
-    let randomNum = Math.floor((Math.random() * 10)) + 1;
-    console.log(randomNum);
-    let userNum = +prompt("Nhap Vao So Tu 1 Den 10: (Ban Co 3 Lan choi)");
-
-
+    function doan() {
+        debugger;
+        let number = +prompt('Số bạn muốn đoán trong khoảng lớn nhất là bao nhiêu?')
+        let number_ran = Math.floor(Math.random() * number);
+        console.log(number_ran);
+        let number_check = +prompt("Nhập số bạn đoán");
+        let count = 0;
+        while (number_check !== number_ran) {
+            count++;
+            if (count === 4) {
+                alert("Bạn hết số lần đoán")
+                break;
+            } else if (number_check < number_ran) {
+                alert("Số bạn đoán bé hơn");
+            } else {
+                alert("Số bạn đoán lớn hơn")
+            }
+            number_check = prompt("Nhập số bạn đoán");
+        }
+        if (count === 4) {
+            document.write("Hết lần đoán");
+        } else {
+            document.write("Đoán đúng số");
+        }
+    }
 </script>
+</body>
 
 
 </html>
