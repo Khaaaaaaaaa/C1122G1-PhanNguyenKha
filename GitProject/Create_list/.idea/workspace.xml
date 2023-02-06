@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e41d56eb-7f7d-4581-9d1e-da9003449501" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2Joit7UZ2qz6ie3oME82kRSymAq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\MD1\GitProject\Create_list" />
+      <recent name="C:\MD1\GitProject\Create_list\bt_taoformdongian" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\MD1\GitProject\Create_list\bt_taoformdongian" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e41d56eb-7f7d-4581-9d1e-da9003449501" name="Default Changelist" comment="" />
+      <created>1672751047140</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672751047140</updated>
+      <workItem from="1672751048376" duration="6000" />
+      <workItem from="1672751948951" duration="1337000" />
+      <workItem from="1672753997534" duration="390000" />
+      <workItem from="1672754641457" duration="2429000" />
+      <workItem from="1672800174038" duration="7888000" />
+      <workItem from="1672814139508" duration="11755000" />
+      <workItem from="1672831477130" duration="708000" />
+      <workItem from="1672841983174" duration="5213000" />
+      <workItem from="1672887651012" duration="13218000" />
+      <workItem from="1672978289549" duration="12230000" />
+      <workItem from="1673078307531" duration="635000" />
+      <workItem from="1673079035090" duration="168000" />
+      <workItem from="1673233918898" duration="18804000" />
+      <workItem from="1673277451811" duration="745000" />
+      <workItem from="1673313505473" duration="10911000" />
+      <workItem from="1673332709006" duration="7726000" />
+      <workItem from="1673347949415" duration="1219000" />
+      <workItem from="1673407665299" duration="15539000" />
+      <workItem from="1673490633235" duration="15938000" />
+      <workItem from="1673526819585" duration="1832000" />
+      <workItem from="1673579390540" duration="1765000" />
+      <workItem from="1673582561999" duration="10122000" />
+      <workItem from="1673674422230" duration="1296000" />
+      <workItem from="1674704256585" duration="35000" />
+      <workItem from="1675129772154" duration="2149000" />
+      <workItem from="1675132334656" duration="1692000" />
+      <workItem from="1675134146976" duration="1817000" />
+      <workItem from="1675136033578" duration="2018000" />
+      <workItem from="1675139450864" duration="1944000" />
+      <workItem from="1675153019191" duration="247000" />
+      <workItem from="1675164231368" duration="114000" />
+      <workItem from="1675168527898" duration="1238000" />
+      <workItem from="1675176897439" duration="1318000" />
+      <workItem from="1675221591100" duration="1780000" />
+      <workItem from="1675223402420" duration="1782000" />
+      <workItem from="1675225212945" duration="1785000" />
+      <workItem from="1675227026904" duration="12550000" />
+      <workItem from="1675306309114" duration="8504000" />
+      <workItem from="1675321321120" duration="193000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="127" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1672803326273">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="0" y="127" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.816@0.0.1536.816" timestamp="1672803326273" />
+    <state x="543" y="210" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1672995189269">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="543" y="210" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.816@0.0.1536.816" timestamp="1672995189269" />
+    <state x="479" y="121" key="FileChooserDialogImpl" timestamp="1675321513463">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="479" y="121" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1675321513463" />
+    <state x="379" y="97" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1675222553002">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="379" y="97" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.816@0.0.1536.816" timestamp="1675222553002" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1675234507246">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.816@0.0.1536.816" timestamp="1675234507246" />
+    <state x="363" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1673317404439">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="363" y="137" width="672" height="678" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1673317404439" />
+  </component>
+</project>
