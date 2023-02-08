@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    let arr = new Array(10);
+    for (let i = 0; i < arr.length; i++) {
+        input = +prompt("Nhap Vap 10 s0:");
+        arr[i] = input;
+    }
+    document.write("Mang Dau cua ban:" + arr + "<br>");
+    arr.sort(function (a, b) {
+        return b - a;
+    });
+    document.write("Mang Sau Cua Ban:" + arr);
+
+
+
+</script>
+</html>
