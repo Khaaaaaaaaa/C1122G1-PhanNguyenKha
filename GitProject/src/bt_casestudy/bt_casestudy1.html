@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    let a = prompt("Số Tiền Lương Của Nhân Viên")
+    let b; //Thuế
+    let c; //Số Tiền Lương Của Nhân Viên Sau Khi Đã Tính Thuế
+    if (a>0) {
+        if (a >= 15000000) {
+                b = a * 20 / 100;
+                c = a - b;
+        }
+        else  if (a >= 7000000 && a < 15000000 ){
+            b = a * 10 / 100;
+            c = a - b ;
+        }
+        else  if (a < 7000000) {
+            b = a * 5 / 100;
+            c = a - b;
+        }
+        document.writeln("Số Tiền Lương Sau Khi Tính Thuế Của Bạn Là " + c)
+
+
+    }
+
+</script>
+</html>
