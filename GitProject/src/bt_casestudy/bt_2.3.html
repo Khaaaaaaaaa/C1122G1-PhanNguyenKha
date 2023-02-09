@@ -2,9 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+
 </body>
-</html>
+<script>
+
+
+    let h = 5
+    for (let i = 0; i < h; i++) {
+        for (let j = h; j > i; j--) {
+            document.write("&ensp;");
+        }
+        for (let a = 0; a <= i * 2; a++) {
+            if (a === 0 || i === h - 1 || a === i * 2) {
+                document.write("*");
+            } else {
+                document.write("&ensp;");
+            }
+        }
+        document.write("<br>");
+    }
+
+
+</script>
