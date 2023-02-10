@@ -8,19 +8,18 @@
 
 </body>
 <script>
-    let arr = prompt("Nhập một kí tự ")
-    switch (arr) {
-        case ('o'):
-        case ('u'):
-        case ('i'):
-        case ('a'):
-        case ('e'):
-            document.write("Nguyên âm: " + arr);
-            break;
-        default:
-            document.write("Phụ âm: " + arr );
+    let m =  +prompt("nhap do dai mang: ");
+    let arr = Array(m);
+    for (let i = 0; i < m; i++) {
+        let n = +prompt("nhap do dai mang con thu " +  (i+1));
+        let arrChild = Array(n);
+        // dien phan tu vao mang con
+        for (let j = 0; j < arrChild.length; j++) {
+            arrChild[j] = prompt("dien phan tu thu " + j+1 + " cua mang " + i+1);
+        }
+        arr[i] = arrChild;
     }
-
+    console.log(arr);
 </script>
 
 </html>
