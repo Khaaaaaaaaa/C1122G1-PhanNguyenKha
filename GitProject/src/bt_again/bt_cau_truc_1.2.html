@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    let thang = +prompt("Nhập  Tháng");
+    let nam = +prompt("Nhập Năm");
+    let namnhuan = false
+    if (nam % 4 === 0 && nam % 100 !== 0 && nam % 400 !== 0 || nam % 100 === 0 && nam % 400 === 0) {
+        namnhuan = true;
+        document.write("Năm Nhuận : ");
+    } else {
+        document.write("Không Phải Năm Nhuận :")
+    }
+    switch (thang) {
+        case 1 :
+            document.write("Có 31 Ngày")
+            break;
+        case 2 :
+            if (namnhuan === true) {
+                document.write(" Có 29 Ngày")
+
+            } else {
+                document.write("Có 28 Ngày")
+            }
+
+            break;
+        case 3 :
+            document.write("Có 31 Ngày")
+            break;
+        case 4 :
+            document.write("Có 30 Ngày")
+            break;
+        case 5 :
+            document.write("Có 31 Ngày")
+            break;
+        case 6 :
+            document.write("Có 30 Ngày")
+            break;
+        case 7 :
+            document.write("Có 31 Ngày")
+            break;
+        case 8 :
+            document.write("Có 31 Ngày")
+            break;
+        case 9 :
+            document.write("Có 30 Ngày")
+            break;
+        case 10 :
+            document.write("Có 31 Ngày")
+            break;
+        case 11 :
+            document.write("Có 30 Ngày")
+            break;
+        case 12 :
+            document.write("Có 31 Ngày")
+            break;
+        default:
+            document.write("khong biet")
+    }
+
+</script>
+</html>

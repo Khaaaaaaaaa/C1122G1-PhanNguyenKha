@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    let a;
+    let b;
+
+    do {
+        a = +prompt("Nhập Vào Số Tuổi Của Cha");
+        b = +prompt("Nhập Vào Số Tuổi Của Con");
+    }
+    while (a <= (b + 25));
+
+    for (let i = 1; i > 0; i++) {
+        a++;
+        b++;
+        if ((a / b) === 2) {
+            document.write("Số Năm Để Tuổi Cha Gấp Đôi Tuổi Con Là " + i + " Năm");
+            break;
+        }
+    }
+
+</script>
+</html>
