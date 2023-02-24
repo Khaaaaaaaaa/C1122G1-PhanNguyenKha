@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    let n = +prompt("Nhap Số Lượng Phần Tử Của Mảng");
+    let a = [];
+    let b = [];
+    let c = []
+    let d;
+    for (let i = 0; i < n; i++) {
+        d = +prompt("Nhập Vào Phần Tử Của Mảng");
+        a.push(d);
+    }
+    document.write(a);
+
+    for (let j = 0; j < n; j++) {
+        if (a[j] % 2 === 0) {
+            b.push(a[j]);
+        }
+        if (a[j] % 2 === 1) {
+            c.push(a[j])
+        }
+
+    }
+    if (b.length === c.length) {
+        document.write(" Ok");
+    } else {
+        document.write(" Không ");
+    }
+
+</script>
+</html>
