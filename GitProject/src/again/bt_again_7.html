@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    let a = +prompt("Giờ Làm Việc Của Nhân Viên");
+    let b = +prompt("Tiền Lương Của Nhân Viên");
+    if (a >= 200) {
+        document.write("Thưởng 20% ");
+        document.write(b + (b * 20 / 100) + "VND");
+    } else if (a >= 100 && a < 200) {
+        document.write("Thưởng 10%");
+        document.write(b + (b * 10 / 100) + "VND");
+    } else {
+        document.write("Không Được Thưởng") + "VND";
+    }
+</script>
+</html>

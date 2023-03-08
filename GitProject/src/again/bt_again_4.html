@@ -7,5 +7,16 @@
 <body>
 
 </body>
+<script>
+    let a = +prompt("Cạnh A")
+    let b = +prompt("Cạnh B")
+    let c = +prompt("Cạnh C")
 
+
+    if (a ** a + b ** b === c ** c || a ** a + c ** c === b ** b || b ** b + c ** c === a ** a && a === b || a === c || b === c) {
+        document.write("Là Tam Giác Vuông Cân");
+    } else {
+        document.write("Không Phải Tam Giác Vuông Cân");
+    }
+</script>
 </html>
