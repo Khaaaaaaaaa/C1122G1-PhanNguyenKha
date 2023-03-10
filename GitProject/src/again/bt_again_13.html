@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    let n = +prompt("Nhập Vào Số Nguyên Tố");
+    let flag = true;
+    if (n < 2) {
+        flag = false
+    }
+    for (let i = 2; i < n; i++) {
+        if (n % i === 0) {
+            flag = false;
+            break;
+
+        }
+    }
+    if (flag) {
+        flag = true;
+        document.writeln("Số Nguyên Tố ");
+    } else {
+        document.writeln("Không Phải Số Nguyên Tố");
+    }
+
+</script>
+</html>

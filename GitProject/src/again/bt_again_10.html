@@ -8,14 +8,11 @@
 
 </body>
 <script>
-    let n = 50;
-    for (let i = 1; ; i++) {
-        n = n + i;
-        if (i === 2) {
-            document.write(n)
-            break;
-        }
-
+    let n;
+    do {
+        n = +prompt("Nhập Vào Số N");
     }
+    while (n <= 0 || n > 100)
+    document.write(n);
 </script>
 </html>
