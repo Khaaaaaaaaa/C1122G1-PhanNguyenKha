@@ -8,13 +8,20 @@
 
 </body>
 <script>
-    let n = +prompt("Nhap Do Dai Cua Mang");
+    let n = +prompt("Nhập Vào Độ Dài Của Mảng");
     let a = [];
-    for (let i= 0 ; i < n ; i++) {
-        m = +prompt("Nhap Vao Phan Tu Cua Mang");
-        a.push(m)
+    for (let i = 0; i < n; i++) {
+        m = +prompt("Nhập Vào Phần Tử Của Mảng");
+        a.push(m);
     }
-    alert(a)
+    alert(a);
+
+    for (let j = 0; j < n; j++) {
+        if (Math.sqrt(a[j]) === parseInt(Math.sqrt(a[j])))
+            document.write(" Số Chính Phương Là  " + a[j]);
+
+        }
+
 
 </script>
 </html>

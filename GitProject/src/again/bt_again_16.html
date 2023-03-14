@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    let n = +prompt("Nhập Vào Độ Dài Của Mảng");
+    let arr = [];
+    let a = [];
+    let sum = 0;
+    for (let i = 0; i < n; i++) {
+        m = +prompt("Nhập Vào Phần Tử Của Mảng ");
+        arr.push(m);
+    }
+    document.write("Các Phần Tử Mới ĐƯợc Thêm Vào Mảng Là : " + arr);
+// 1 : Nhập Và Hiển Thị Các Phần Tử
+
+    for (let j = 0; j < n; j++) {
+        if (j % 2 === 1) {
+            a.push(arr[j]);
+        }
+
+    }
+    document.write("Các Số Ở Vị Trí Lẽ Là :" + a)
+    // 2 : Tìm Các Phần Tử Ở Vị Trí Lẽ
+    for (let k = 0; k < a.length; k++) {
+        if (a[k] % 2 === 0) {
+            sum += a[k];
+        }
+
+    }
+    document.write("Tổng Các Phần Tử Ở Vị Trí Lẽ Là : " + sum);
+// 3 : Tính Tổng Các Phần Tử Chẵn Ở Vị Trí Lẽ
+
+</script>
+</html>

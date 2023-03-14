@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    let n = +prompt("Nhập Chiều Dài Của Mảng");
+    let m = +prompt("Nhập Chiều Rộng Của Mảng");
+    let array2d = [];
+    let a = [];
+    let b = [];
+    let sum;
+    for (let i = 0; i < n; i++) {
+        array2d[i] = [];
+        for (let j = 0; j < m; j++) {
+            array2d[i][j] = prompt("Nhập Phần Tử Thứ " + j + " Của Mảng " + i);
+        }
+    }
+    console.log(array2d);
+
+    for (let i = 0; i < n; i++) {
+        for (let j = 0; j < m; j++) {
+            if (i === j) {
+                a.push(array2d[i][j]);
+            }
+        }
+    }
+
+    for (let i = 0; i < n; i++) {
+        for (let j = 0; j < m; j++) {
+            if (i === j || j === array2d - 1) {
+                b.push(array2d)
+
+            }
+
+        }
+        document.write(b)
+</script>
+</html>
