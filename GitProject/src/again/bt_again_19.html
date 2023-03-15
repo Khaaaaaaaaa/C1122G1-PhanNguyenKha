@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    let n = +prompt('nhập độ dài của mảng');
+    let arr = [];
+    for (let i = 0; i < n; i++) {
+        let m = +prompt('nhập phần tử');
+        arr.push(m);
+    }
+
+    function kiemTra(arr) {
+        let sumChan = 0;
+        let sumLe = 0;
+        let sum = 0;
+        for (let i = 0; i < arr.length; i++) {
+            if (arr[i] % 2 === 0) {
+                sumChan++
+            } else {
+                sumLe++
+            }
+            sum++
+        }
+        alert(sumChan, sumLe, sum);
+        if (sumChan === sum) {
+            return document.write(1);
+        } else if (sumLe === sum) {
+            return document.write(0);
+        } else {
+            return document.write(-1);
+        }
+    }
+
+    kiemTra(arr);
+</script>
+
+</body>
+</html>

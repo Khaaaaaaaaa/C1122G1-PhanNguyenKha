@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    let n = +prompt("Nhập Độ Dài Của Mảng");
+    let arr = [];
+    for (let i = 0; i < n; i++) {
+        let m = prompt("Nhập Phần Tử Của Mảng");
+        arr.push(m);
+
+    }
+    alert(arr);
+
+    let a = arr[1] - arr[0]
+    let count = 0;
+    for (let i = 0; i < arr.length; i++) {
+        if ((arr[i + 1] - arr[i]) === a) {
+            count++;
+        }
+    }
+    if (count === arr.length - 1) {
+        alert('OK')
+    } else {
+        alert('No OK')
+    }
+</script>
+</html>

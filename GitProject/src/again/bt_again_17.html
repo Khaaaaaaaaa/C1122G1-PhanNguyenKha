@@ -5,39 +5,38 @@
     <title>Title</title>
 </head>
 <body>
-
-</body>
 <script>
-    let n = +prompt("Nhập Chiều Dài Của Mảng");
-    let m = +prompt("Nhập Chiều Rộng Của Mảng");
-    let array2d = [];
-    let a = [];
-    let b = [];
-    let sum;
+    let arrTwoWay = [];
+    let n = prompt("Nhập vào số lượng mảng") * 1;
     for (let i = 0; i < n; i++) {
-        array2d[i] = [];
+        let arrLength = [];
+        let m = prompt("Nhập vào chiều dài mảng") * 1;
         for (let j = 0; j < m; j++) {
-            array2d[i][j] = prompt("Nhập Phần Tử Thứ " + j + " Của Mảng " + i);
+            arrLength[j] = prompt("Nhập phần tử thứ " + j + " Của mảng " + i) * 1
         }
+        arrTwoWay.push(arrLength);
     }
-    console.log(array2d);
-
-    for (let i = 0; i < n; i++) {
-        for (let j = 0; j < m; j++) {
+    console.log(arrTwoWay);
+    let sum1 = 0;
+    for (let i = 0; i < arrTwoWay.length; i++) {
+        for (let j = 0; j < arrTwoWay.length; j++) {
             if (i === j) {
-                a.push(array2d[i][j]);
+                sum1 += arrTwoWay[i][j];
             }
         }
     }
-
-    for (let i = 0; i < n; i++) {
-        for (let j = 0; j < m; j++) {
-            if (i === j || j === array2d - 1) {
-                b.push(array2d)
-
+    console.log(sum1);
+    let sum2 = 0;
+    for (let i = 0; i < arrTwoWay.length; i++) {
+        for (let j = 0; j < arrTwoWay.length; j++) {
+            if (j === (arrTwoWay.length - 1) - i) {
+                sum2 += arrTwoWay[i][j];
             }
-
         }
-        document.write(b)
+    }
+    console.log(sum2);
+    document.write("Tổng 2 đường chéo là : " + (sum1 + sum2));
+
 </script>
+</body>
 </html>
