@@ -8,11 +8,11 @@
 
 </body>
 <script>
-    let n = +prompt("Nhap Vao Do Dai Cua Mang");
-    let arr = []
+    let n = +prompt("Nhập Vào Độ Dài Của Mảng");
+    let arr = [];
     for (let i = 0; i < n; i++) {
-        let m = prompt("Nhap Vao Phan Tu Cua Mang");
-        arr.push(m)
+        let m = prompt("Nhập Vào Phần Tử Của Mảng");
+        arr.push(m);
 
     }
 
@@ -20,9 +20,9 @@
     function kiemTra(arr) {
         let numberArray1 ="0987654321";
         let stringsArray1 ="qwertyuiopasdfghjklzxcvbnm"
-        let sum = 0
-        let sums = 0
-        let sumc = 0
+        let sum = 0;
+        let sums = 0;
+        let sumc = 0;
         for (let i = 0; i < arr.length; i++) {
             if (numberArray1.indexOf(arr[i])!== -1) {
                 sums++
@@ -39,14 +39,14 @@
         if (sums === arr.length) {
             document.write(1)
         } else if (sumc === arr.length) {
-            document.write(0)
+            document.write(0);
         } else {
-            document.write(-1)
+            document.write(-1);
         }
 
 
     }
-    kiemTra(arr)
+    kiemTra(arr);
 
 </script>
 </html>
