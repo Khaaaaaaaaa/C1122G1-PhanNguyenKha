@@ -8,6 +8,23 @@
 
 </body>
 <script>
+    let a = +prompt("Nhập Chiều Dài Cạnh A");
+    let b = +prompt("nhập chiều dài cạnh B");
+    let c = +prompt("nhập chiều dài cạnh C");
+
+    function checkTriangle() {
+        if (a + b < c || a + c < b || b + c < a) {
+            alert("Đây Không Phải Là Tam Giác");
+        } else if (Math.pow(c, 2) === (Math.pow(b, 2) + Math.pow(a, 2))) {
+            alert("Đây Là Tam Giác Vuông");
+        } else {
+            alert("Đây Là Một Tam Giác");
+        }
+    }
+
+
+
+    checkTriangle(a, b, c);
 
 </script>
 </html>
