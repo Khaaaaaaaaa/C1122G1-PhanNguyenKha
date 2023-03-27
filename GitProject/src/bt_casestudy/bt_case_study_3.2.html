@@ -8,8 +8,8 @@
 
 </body>
 <script>
-    let a = [1,2,3,4,5];
-    let b = [1,2,3,4,5,6,7,8,9];
+    let a = [7,2,5,3,5,3];
+    let b = [7,2,5,4,6,3,5,3];
     let missValue = [];
     let count = 0;
     for (let i = 0; i < b.length; i++) {
@@ -18,10 +18,11 @@
                 count++;
             }
         }
-        if (count === 0) {
+        if (a[i] !== b[i]) {
             missValue.push(b[i]);
         }
     }
-    alert(missValue);
+    document.write(missValue);
+
 </script>
 </html>

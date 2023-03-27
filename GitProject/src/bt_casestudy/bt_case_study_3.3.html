@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    let numertor = [100, 200, 300, 400, 500];
+    let denominator = [600, 700, 800, 900, 1000];
+    let chiSo;
+    let max = numertor[0] / denominator[0]
+    for (let i = 0; i < numertor.length; i++) {
+        if (numertor[i] / denominator[i] > max) {
+            chiSo = i
+            max = numertor[i] / denominator[i]
+        }
+    }
+    document.writeln("Chỉ Số : " + chiSo + "----" + max)
+
+</script>
+</html>

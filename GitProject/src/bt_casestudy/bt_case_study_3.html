@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    let n = +prompt("Nhập Vào Độ Dài Của Mảng");
+    let arr = [];
+    for (let i = 0; i < n; i++) {
+        a = +prompt("Nhập Vào Phần Tử Của Mảng ");
+        arr.push(a);
+    }
+    alert(arr);
+
+
+    let prefixSum = [];
+    let b = 0;
+    for (let i = 0; i < arr.length; i++) {
+        b += arr[i];
+        prefixSum[i] = b;
+
+    }
+    document.write(prefixSum);
+</script>
+</html>

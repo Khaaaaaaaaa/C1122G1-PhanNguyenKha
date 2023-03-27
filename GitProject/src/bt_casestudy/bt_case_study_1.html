@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    let a = +prompt("Nhập Vào Tiền Lương Của Nhân Viên");
+    if (a >= 15000000) {
+        document.write("Số Thuế Phải Trả Là : 20% " + "Số Tiền Lương Sau Khi Tính Thuế Là :" + (a - (a * 20 / 100)));
+    } else if (a >= 7000000 && a < 15000000) {
+        document.write("Số Thuế Phải Trả Là : 10%" + " Số Tiền Lương Sau Khi Tính Thuế Là :" + (a - (a * 10 / 100)));
+    } else if (a < 7000000) {
+        document.write("Số Thuế Phải Trả Là : 5%" + "Số Tiền Lương Sau Khi Tính Thuế Là : " + (a - (a * 5 / 100)));
+    } else {
+        document.write("Không Có Thuế ");
+    }
+</script>
+</html>
