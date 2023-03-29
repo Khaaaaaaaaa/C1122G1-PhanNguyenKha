@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    function checkString(String) {
+        let array = String.split(" ");
+        let newArray = [];
+        for (let i = 0; i < array.length; i++) {
+            if (array[i] !== "") {
+                newArray.push(array[i]);
+            }
+            console.log(newArray);
+        }
+        let newArray2=[];
+        let b;
+        for (let i = 0; i <newArray.length ; i++) {
+            b=array[i][0].toUpperCase()
+            newArray2.push(b)
+
+        }
+
+    }
+
+    let n = prompt("Nhap vao chuoi cac ky tu");
+    alert(checkString(n));
+</script>
+</html>

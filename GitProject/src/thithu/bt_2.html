@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    function checkString(String) {
+        let array = String.split(" ");
+        let newArray = [];
+        for (let i = 0; i < array.length; i++) {
+            if (array[i] !== "") {
+                newArray.push(array[i]);
+            }
+        }
+        console.log(newArray);
+        if (newArray.length == 1) {
+            return "Chuoi chi co 1 tu nen khong can viet tat"
+        } else {
+            let newArray2 = [];
+            for (let i = 0; i < newArray.length; i++) {
+                let a = newArray[i][0].toUpperCase();
+                newArray2.push(a);
+            }
+            return newArray2.join("");
+        }
+
+    }
+
+
+    let inputString = prompt("Nhap vao chuoi cac ky tu");
+
+    alert(checkString(inputString));
+</script>
+</html>
